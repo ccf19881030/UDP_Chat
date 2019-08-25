@@ -46,3 +46,4 @@ has 1 users logined server
 			list
 			exit
 ```
+可以同时开启多个客户端，按照指定的命令格式进行聊天。
