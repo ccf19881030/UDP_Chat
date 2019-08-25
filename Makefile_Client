@@ -1,9 +1,0 @@
-GCC=g++
-CFLAGS=-Wall -g
-EXE_CLIENT=client
-SRC_CLIENT=client.cpp
-
-$(EXE_CLIENT):$(SRC_CLIENT)
-        $(GCC) -o $(EXE_CLIENT) $(SRC_CLIENT) $(CFLAGS)
-clean:
-        rm  $(EXE_CLIENT) *.o -rf
